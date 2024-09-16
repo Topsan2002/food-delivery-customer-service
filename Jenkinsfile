@@ -53,7 +53,7 @@ pipeline {
 
 
                     echo "Stopping and removing any existing containers"
-                    sh "docker rm -f ${serviceName} || true"
+//                     sh "docker rm -f ${serviceName} || true"
 
                                 echo "Cleaning up unused Docker resources"
                                 sh "docker system prune -af"
